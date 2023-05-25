@@ -1,10 +1,10 @@
 {
 	"name": "faster-start-k2",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"factorio_version": "1.1",
 	"title": "Faster Start Krastorio2",
 	"author": "PolarisTime",
-	"description": "Fork form @trad_emark/faster-start.Krastorio2快速开局",
+	"description": "Fork form @trad_emark/faster-start.Krastorio2快速开局,满配置MK4装甲",
 	"dependencies": [
 		"base >= 1.1.74",
 		"Krastorio2 >= 1.3.18",
