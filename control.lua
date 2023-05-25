@@ -17,12 +17,26 @@ function initPlayer(player)
 
 	local items = {
 		-- resources
+		{"iron-plate",400},
+		{"copper-plate",400},
+		{"steel-plate",400},
+		{"stone",400},
+		{"wood",400},
 		-- belts
 		-- pipes
 		-- other logistic
 		{"construction-robot", 50},
+		{"charged-antimatter-fuel-cell",2},
 		-- buildings
 		-- electricity
+		-- equipment
+		{"kr-superior-exoskeleton-equipment",12},
+		{"personal-roboport-mk2-equipment",2},
+		{"antimatter-reactor-equipment",2},
+		{"belt-immunity-equipment",1},
+		{"imersite-night-vision-equipment",1},
+		{"big-battery-mk3-equipment",1},
+		{"battery-mk3-equipment",1},
 	}
 	for _, v in pairs(items) do
 		player.insert{name = v[1], count = v[2]}
@@ -34,9 +48,7 @@ function initPlayer(player)
 
 	local equipment = {
 		-- equipment
-		"fusion-reactor-equipment",
-		"exoskeleton-equipment",
-		"personal-roboport-equipment",
+		"power-armor-mk4",
 	}
 	for _, v in pairs(equipment) do
 		armorGrid.put{name = v}
