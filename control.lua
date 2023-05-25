@@ -30,7 +30,8 @@ function initPlayer(player)
 		-- buildings
 		-- electricity
 		-- equipment
-		{"kr-superior-exoskeleton-equipment",12},
+		{"power-armor-mk4",1},
+		{"superior-exoskeleton-equipment",12},
 		{"personal-roboport-mk2-equipment",2},
 		{"antimatter-reactor-equipment",2},
 		{"belt-immunity-equipment",1},
@@ -44,11 +45,11 @@ function initPlayer(player)
 
 	local armorInventory = player.get_inventory(defines.inventory.character_armor)
 	armorInventory.insert("power-armor")
-	local armorGrid = armorInventory.find_item_stack("power-armor").grid
+	local armorGrid = armorInventory.find_item_stack("power-armor-mk4").grid
 
 	local equipment = {
 		-- equipment
-		"power-armor-mk4",
+		--"power-armor-mk4",
 	}
 	for _, v in pairs(equipment) do
 		armorGrid.put{name = v}
