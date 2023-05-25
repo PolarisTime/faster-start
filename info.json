@@ -1,8 +1,8 @@
 {
-	"name": "faster-start",
-	"version": "1.1.0",
+	"name": "faster-start-k2",
+	"version": "1.0",
 	"factorio_version": "1.1",
-	"title": "Faster start",
-	"author": "trad_emark",
-	"description": "Start with some additional items."
+	"title": "Faster Start Krastorio2",
+	"author": "PolarisTime",
+	"description": "Fork form trad_emark.Krastorio2快速开局"
 }
