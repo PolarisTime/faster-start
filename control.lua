@@ -73,4 +73,10 @@ function onModInit()
 	end
 end
 
+function StartUpSettings()
+	if  then
+		
+	end
+end
+
 script.on_init(onModInit)
